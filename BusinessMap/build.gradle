@@ -1,0 +1,67 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven'
+apply from: 'uploadArchives.gradle'
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+
+        //ARouter
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [AROUTER_MODULE_NAME: project.getName()]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+
+    annotationProcessor "com.alibaba:arouter-compiler:1.2.0"
+
+    api LIB_CONSTRAINT_LAYOUT
+
+    api LIB_DESIGN
+    api LIB_CARDVIEW
+
+//    // 高德定位、地图
+    api LIB_LBS_GAODE
+ //   api LIB_SEARCH
+//    api LIB_3D_MAP
+
+    // Rx
+    api LIB_RX_JAVA
+    api LIB_RX_ANDROID
+    api LIB_RX_LIFECYCLE
+    //简单圆角控件
+    api LIB_ROUNDED_IMAGEVIEW
+    api LIB_FLYCO_ROUNDVIEW
+    //banner库，可加载自定义布局
+    api LIB_CONVENIENT_BANNER
+    // RecyclerView
+    api LIB_BASE_RECYCLER_VIEW_ADAPTER_HELPER
+
+    // ARouter
+    api LIB_ROUTER
+
+    api LIB_BASE
+    api LIB_WIDGET
+    api LIB_NET
+
+}

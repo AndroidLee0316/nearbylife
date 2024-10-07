@@ -1,0 +1,19 @@
+<resources>
+    <string name="nearby_call_phone">电话</string>
+    <string name="nearby_go_here">去这里</string>
+    <string name="nearby_search_map_title">附近推荐</string>
+    <string name="nearby_no_more_content">已无更多内容</string>
+    <string name="nearby_cancel">取消</string>
+
+    <string name="nearby_tab_bottom_sheet_tips">点击查看全部%1$s信息</string>
+
+    <string name="nearby_car_cost">%1$.1f 元</string>
+
+    <string name="navigation_path_start">起点</string>
+    <string name="navigation_path_end">终点</string>
+
+    <string name="nearby_network_unavailable">当前网络不佳，请稍后重试</string>
+
+    <string name="nearby_base_open_gps">开启GPS</string>
+
+</resources>

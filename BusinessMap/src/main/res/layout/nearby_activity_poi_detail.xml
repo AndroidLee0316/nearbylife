@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!--<com.amap.api.maps.MapView-->
+            <!--android:id="@+id/nearby_map_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+        <com.amap.api.maps.TextureMapView
+            android:id="@+id/nearby_map_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.pasc.lib.widget.toolbar.PascToolbar
+            android:id="@+id/nearby_title_bar"
+            style="@style/NearByNavToolbar"
+            app:support_translucent_status_bar="true"
+            app:title="" />
+    </RelativeLayout>
+
+    <include
+        layout="@layout/nearby_view_nearby_site_detail"
+        android:visibility="visible" />
+</LinearLayout>

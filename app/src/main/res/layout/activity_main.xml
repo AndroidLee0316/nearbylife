@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nearby_white_ff"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:text="附近的生活测试页"
+        android:textColor="@color/nearby_black_333333"
+        android:textSize="16sp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/nearby_gray_f4f4f4"
+        />
+
+    <Button
+        android:id="@+id/main_nearbylife"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:text="附近的生活"
+        android:textSize="18sp"
+        android:textColor="@color/nearby_black_333333"
+        android:background="@color/nearby_blue_27a5f9"
+        />
+
+    <Button
+        android:id="@+id/main_exit"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:text="退出App"
+        android:textSize="18sp"
+        android:textColor="@color/nearby_black_333333"
+        android:background="@color/nearby_blue_27a5f9"
+        />
+
+</LinearLayout>

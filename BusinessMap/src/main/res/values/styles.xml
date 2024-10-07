@@ -1,0 +1,47 @@
+<resources>
+
+    <style name="NearbyTabLayoutTextStyle">
+        <item name="android:textSize">@dimen/text_size_15</item>
+    </style>
+
+    <declare-styleable name="NearbyBottomSheetBehavior">
+        <attr name="anchorPoint" format="dimension" />
+    </declare-styleable>
+
+
+    <style name="NearbyBottomNaviTab">
+        <item name="android:textSize">@dimen/text_size_11</item>
+        <item name="android:textColor">@color/nearby_selector_common_tab_text</item>
+    </style>
+
+    <style name="NearbyMapAppSelect">
+        <item name="android:textColor">#ff2e332f</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_height">44dp</item>
+    </style>
+
+    <style name="NearByToolbar" parent="PascToolbarBase">
+        <item name="android:background">@color/nearby_bg_title</item>
+    </style>
+
+    <style name="NearByNavToolbar" parent="NearByToolbar">
+        <item name="android:background">#00000000</item>
+    </style>
+
+    <style name="NearbyAppBaseDialog" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:backgroundStacked">#000000</item>
+    </style>
+
+    <style name="NearbyRoundDialog" parent="NearbyAppBaseDialog">
+        <item name="android:windowBackground">@drawable/nearby_bg_round_dialog</item>
+    </style>
+
+</resources>

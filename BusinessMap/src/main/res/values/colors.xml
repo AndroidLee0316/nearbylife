@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <!--项目主题颜色-->
+    <color name="nearby_bg_title">#ffffff</color>
+    <color name="nearby_bg_theme">#ffffff</color>
+
+    <color name="nearby_white_ff">#ffffff</color>
+    <color name="nearby_white_60">#95ffffff</color>
+    <color name="nearby_white_45">#8Cffffff</color>
+    <color name="nearby_white_fc">#fcfcfc</color>
+
+    <color name="nearby_black_333333">#333333</color>
+    <color name="nearby_black_2e332f">#2e332f</color>
+
+    <color name="nearby_blue_27a5f9">#27a5f9</color>
+
+    <color name="nearby_gray_e8e8e8">#e8e8e8</color>
+    <color name="nearby_gray_ededed">#ededed</color>
+    <color name="nearby_gray_f4f4f4">#f4f4f4</color>
+    <color name="nearby_gray_dddddd">#dddddd</color>
+    <color name="nearby_gray_c7c7c7">#c7c7c7</color>
+    <color name="nearby_gray_5f5f5f">#5f5f5f</color>
+    <color name="nearby_gray_8d8d8d">#8d8d8d</color>
+    <color name="nearby_gray_666666">#666666</color>
+    <color name="nearby_gray_999999">#999999</color>
+
+    <color name="nearby_green_77d342" >#ff77d342</color>
+    <color name="nearby_gray_ff8d8d8d">#ff8d8d8d</color>
+    <color name="nearby_red_e03a1f">#FFE03A1F</color >
+    <color name="nearby_red_d43921">#FFD43921</color >
+    <color name="nearby_gray_f2f2f2">#f2f2f2</color>
+
+
+    <!--透明-->
+    <color name="nearby_transparent_00">#00000000</color>
+    <color name="nearby_transparent_ff">#00ffffff</color>
+    <color name="nearby_transparent_half">#30000000</color>
+    <color name="nearby_transparent_b2">#b2000000</color>
+    <color name="nearby_transparent_40">#66000000</color>
+    <color name="nearby_transparent_35">#46000000</color>
+    <color name="nearby_transparent_half_b0">#b0000000</color>
+    <color name="nearby_transparent_ff000000">#FF000000</color>
+
+</resources >

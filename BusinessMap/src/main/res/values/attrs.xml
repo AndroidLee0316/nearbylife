@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--MoreServices TabLayout-->
+    <declare-styleable name="NearByTabLayout">
+        <attr format="color" name="tabIndicatorColor"/>
+        <attr format="dimension" name="tabIndicatorHeight"/>
+        <attr format="dimension" name="tabContentStart"/>
+        <attr format="reference" name="tabBackground"/>
+        <attr name="tabModeN">
+            <enum name="scrollable" value="0"/>
+            <enum name="fixed" value="1"/>
+        </attr>
+        <attr name="tabGravityN">
+            <enum name="fill" value="0"/>
+            <enum name="center" value="1"/>
+        </attr>
+        <attr format="dimension" name="tabMinWidth"/>
+        <attr format="dimension" name="tabMaxWidth"/>
+        <attr format="reference" name="tabTextAppearance"/>
+        <attr format="color" name="tabTextColor"/>
+        <attr format="color" name="tabSelectedTextColor"/>
+        <attr format="dimension" name="tabPaddingStart"/>
+        <attr format="dimension" name="tabPaddingTop"/>
+        <attr format="dimension" name="tabPaddingEnd"/>
+        <attr format="dimension" name="tabPaddingBottom"/>
+        <attr format="dimension" name="tabPadding"/>
+
+        <!--底部分隔栏的颜色-->
+        <attr format="color" name="bottomLineColor"/>
+        <!--竖直分隔线的颜色-->
+        <attr format="color" name="dividerColor"/>
+        <!--底部分隔栏的高度-->
+        <attr format="dimension" name="bottomLineHeight"/>
+        <!--竖直分隔线的宽与高-->
+        <attr format="dimension" name="dividerWidth"/>、
+        <attr format="dimension" name="dividerHeight"/>
+        <attr name="bottomLineModeN">
+            <!--不显示底部分割栏-->
+            <enum name="none" value="0"/>
+            <!--显示在滑动栏外面-->
+            <enum name="outer" value="1"/>
+            <!--显示在滑动栏里面-->
+            <enum name="inner" value="2"/>
+        </attr>
+        <!--下划线的宽度-->
+        <attr format="dimension" name="tabLineOffset"/>
+    </declare-styleable>
+
+
+</resources >

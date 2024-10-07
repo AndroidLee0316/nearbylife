@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/nearby_transparent_00">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/poi_name"
+            android:layout_width="0dp"
+            android:maxWidth="200dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/nearby_bg_navigation_address_left"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:paddingLeft="18dp"
+            android:paddingRight="13dp"
+            android:textColor="@color/nearby_black_2e332f"
+            android:textSize="@dimen/sp_14"
+            tools:text="深圳市市民中心广场" />
+
+        <TextView
+            android:id="@+id/navigation_start"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/nearby_bg_navigation_address_right"
+            android:drawableLeft="@drawable/nearby_ic_nav_white_up"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:paddingLeft="7dp"
+            android:paddingRight="13dp"
+            android:text="导航"
+            android:textColor="@color/nearby_white_ff"
+            android:textSize="14dp" />
+    </LinearLayout>
+</FrameLayout>
